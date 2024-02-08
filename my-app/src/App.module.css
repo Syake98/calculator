@@ -1,0 +1,25 @@
+.container {
+	width: 250px;
+	margin: auto;
+	padding: 10px;
+
+	text-align: center;
+	background-color: darkgray;
+	border: 10px solid saddlebrown;
+	border-radius: 10%;
+}
+
+.input {
+	width: 90%;
+}
+
+.button {
+	/* display: flex; */
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: start;
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
