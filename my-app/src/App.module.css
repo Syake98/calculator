@@ -2,24 +2,48 @@
 	width: 250px;
 	margin: auto;
 	padding: 10px;
-
 	text-align: center;
-	background-color: darkgray;
-	border: 10px solid saddlebrown;
+	background-color: rgb(167, 158, 158);
+	border: 10px solid rgb(19, 81, 139);
+	border-radius: 10%;
+	box-shadow: 11px 12px 27px 4px rgba(0,0,0,0.7);
+}
+
+.standartInput, .responsedInput {
+	margin-top: 20px;
+	width: 220px;
+	height: 20px;
+	text-align: end;
+}
+
+.responsedInput {
+	background-color: greenyellow;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.numButton:hover, .operatorButton:hover {
+	outline: none;
+	cursor: pointer;
+	background-color: rgb(153, 177, 211);
+	transition: 0.2s;
+}
+
+.numButton, .operatorButton {
+	width: 33%;
+	padding: 25px;
+	box-sizing: border-box;
 	border-radius: 10%;
 }
 
-.input {
-	width: 90%;
+.operatorButton {
+	background-color: bisque;
 }
 
-.button {
-	/* display: flex; */
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: start;
-	width: 33%;
-	padding: 10px;
-	box-sizing: border-box;
+.numButtons :last-child {
+	width: 100%;
 }
